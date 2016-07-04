@@ -1,6 +1,6 @@
 jQuery Full Page Image Zoom
 ===============================
-## How to Use
+### How to Use
 Include FP Image Zoom CSS file to your HTML file
 ```
 <link rel="stylesheet" href="fpimagezoom/fpimagezoom.css">
