@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<title>Full Page Image Zoom</title>
+		<!-- Viewport for Responsivity -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Stylesheets -->
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="wrap">
+			<header id="header">
+				<div class="inner">
+					<h1>Full Page Image Zoom</h1>
+					<span>Click on the images to view full page version</span>
+				</div>
+			</header>
+
+			<div id="content">
+				<div class="inner">
+
+					<div class="container">
+						<h3>How to Use</h3>
+						<ol>
+							<li>
+								<p>Include FP Image Zoom CSS file to your HTML file</p>
+								<code>
+									<pre>&#60;link rel="stylesheet" href="fpimagezoom/fpimagezoom.css"&#62;</pre>
+								</code>
+							</li>
+							<li>
+								<p>Include jQuery and FP Image Zoom js files to your HTML file</p>
+								<code>
+									<pre>&#60;script type="text/javascript" src="js/jquery.min.js"&#62;&#60;/script&#62;</pre>
+									<pre>&#60;script type="text/javascript" src="fpimagezoom/fpimagezoom.js"&#62;&#60;/script&#62;</pre>
+								</code>
+							</li>
+							<li>
+								<p>Place your image inside a DIV and give it a ID. The "data-src" attribute should store the file path to the original image.</p>
+								<code>
+									<pre>&#60;div id="fpimagezoom" class="fpimagezoom-container"&#62;</pre>
+									<pre>    &#60;img src="images/001-thumb.jpg" data-src="images/001-original.jpg" alt=""&#62;</pre>
+									<pre>    &#60;img src="images/002-thumb.jpg" data-src="images/002-original.jpg" alt=""&#62;</pre>
+									<pre>    &#60;img src="images/003-thumb.jpg" data-src="images/003-original.jpg" alt=""&#62;</pre>
+									<pre>    &#60;img src="images/004-thumb.jpg" data-src="images/004-original.jpg" alt=""&#62;</pre>
+									<pre>&#60;/div&#62;</pre>
+								</code>
+							</li>
+							<li>
+								<p>Call the FP Image Zoom function</p>
+								<code>
+									<pre>&#60;script&#62;</pre>
+									<pre>$('#fpimagezoom').fpImageZoom();</pre>
+									<pre>&#60;/script&#62;</pre>
+								</code>
+							</li>
+						</ol>
+					</div>
+					
+				</div>
+
+			</div>
+
+			<footer id="footer">
+				<div class="inner">
+					<p>Copyright &copy; 2015 daroldso. All Rights Reserved.</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

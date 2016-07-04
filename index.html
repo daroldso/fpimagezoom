@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<title>Full Page Image Zoom</title>
+		<!-- Viewport for Responsivity -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Stylesheets -->
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="fpimagezoom/fpimagezoom.css">
+		<!-- Internet Explorer -->
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="wrap">
+			<header id="header">
+				<div class="inner">
+					<h1>Full Page Image Zoom</h1>
+					<span>Click on the images to view full page version</span>
+				</div>
+			</header>
+
+			<div id="content">
+				<div class="inner">
+					
+					<div id="fpimagezoom" class="fpimagezoom-container container">
+						<img src="images/001-thumb.jpg" data-src="images/001-original.jpg" alt="">
+						<img src="images/002-thumb.jpg" data-src="images/002-original.jpg" alt="">
+						<img src="images/003-thumb.jpg" data-src="images/003-original.jpg" alt="">
+						<img src="images/004-thumb.jpg" data-src="images/004-original.jpg" alt="">
+					</div>
+
+				</div>
+
+			</div>
+
+			<footer id="footer">
+				<div class="inner">
+					<p>Copyright &copy; 2015 daroldso. All Rights Reserved.</p>
+				</div>
+			</footer>
+		</div>
+
+	<!-- Scripts -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="fpimagezoom/fpimagezoom.js"></script>
+<script>
+$('#fpimagezoom').fpImageZoom( );
+</script>
+	</body>
+</html>
